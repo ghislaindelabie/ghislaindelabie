@@ -1,4 +1,6 @@
 source 'https://rubygems.org'
+# ↓ Force une version ≥ 6.0.2 (6.0.x reste compatible)
+gem "public_suffix", "~> 6.0", ">= 6.0.2"
 
 gem 'jekyll'
 
@@ -23,6 +25,7 @@ group :jekyll_plugins do
     gem 'jemoji'
 
     gem 'classifier-reborn'  # used for content categorization during the build
+    gem "jekyll-polyglot" #for multi-lingual support
 end
 
 # Gems for development or external data fetching (outside :jekyll_plugins)

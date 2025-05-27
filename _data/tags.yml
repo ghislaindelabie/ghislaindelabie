@@ -1,0 +1,12 @@
+mobility:
+  fr: "pratiques de mobilité"
+  en: "Mobility Behaviour"
+transport:
+  fr: "Modes et infra de transport"
+  en: "Transport Modes & Infra"
+applied-ai:
+  fr: "IA métier"
+  en: "Business AI"
+ai-engineering:
+  fr: "ingénierie IA"
+  en: "AI Engineering"

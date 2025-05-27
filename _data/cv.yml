@@ -8,14 +8,14 @@
     - name: Languages
       value: English, German
 
-- title: Education
+- title: Études
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: MSc
+      institution: Bristol University, Bristol, Angleterre
+      year: 2009
       description:
-        - Description 1.
+        - Communication Systems and Signal Processing
         - Description 2.
         - title: Description 3.
           contents:
@@ -31,9 +31,9 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Directeur des projets
+      institution: La Fabrique des Mobilités
+      year: 2021 - 202
       description:
         - Description 1.
         - Description 2.

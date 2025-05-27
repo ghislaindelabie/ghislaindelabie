@@ -1,14 +1,15 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - ghislaindelabie
+  - TTalex
+  - gdelabie
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - fabmob/dataviz-30-veli
+  - fabmob/meteo-mobilite-jo
+  - fabmob/standard-covoiturage
+  - fabmob/playground-standard-covoiturage
+  - fabmob/CMS
+  - fabmob/gofs-taxis
+  - fabmob/mcm-gateway

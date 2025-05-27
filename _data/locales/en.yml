@@ -1,0 +1,9 @@
+lang_name: "EN"
+lang_full: "English"
+blog_name: "AI & Mobility"
+blog_description: "From Traffic Lanes to Neural Networks"
+menu:
+  home: "Home"
+  blog: "Blog"
+  about: "Welcome"
+  publications: "Publications"

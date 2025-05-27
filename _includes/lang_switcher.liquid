@@ -1,0 +1,18 @@
+{% for lang in site.languages %}
+  {% if lang == site.active_lang %}
+    <span class="active">{{ lang }}</span>
+  {% else %}
+    {%- comment -%} Construit l'URL cible grâce au hash permalink_lang {%- endcomment -%}
+    {% capture lang_href %}
+      {{ site.baseurl }}/
+      {% if lang != site.default_lang %}{{ lang }}{% endif %}
+      {% unless page.permalink_lang[lang] == '/' %}
+        {{ page.permalink_lang[lang] }}
+      {% endunless %}
+    {% endcapture %}
+
+    {% static_href %}
+      <a href="{{ lang_href | strip }}" hreflang="{{ lang }}">{{ lang }}</a>
+    {% endstatic_href %}
+  {% endif %}
+{% endfor %}
