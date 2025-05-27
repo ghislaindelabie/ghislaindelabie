@@ -55,7 +55,6 @@
               {% endif %}
             </a>
           </li>
-          {% include lang_switcher.liquid %}
 
           <!-- Other pages -->
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}
@@ -126,7 +125,6 @@
               </button>
             </li>
           {% endif %}
-          {% include lang_switcher.liquid %}
           {% if site.enable_darkmode %}
             <!-- Toogle theme mode -->
             <li class="toggle-container">
