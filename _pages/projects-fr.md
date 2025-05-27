@@ -10,14 +10,6 @@ horizontal: false
 page_id: projects
 lang: fr
 ---
-Tests de liens !
-{% for lang in site.languages %}
-    {% if lang == site.default_lang %}
-<a href=" {{ page.url }}">{{ lang }}</a>
-    {% else %}
-<a href="/{{ lang }}{{ page.url }}">{{ lang }}</a>
-    {% endif %}
-{% endfor %}
 
 
 <!-- pages/projects.md -->

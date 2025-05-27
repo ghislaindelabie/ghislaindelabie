@@ -10,35 +10,6 @@ horizontal: false
 page_id: projects
 lang: en
 ---
-Tests de liens :
-{% for lang in site.languages %}
-  {% if lang == site.active_lang %}
-    <span class="active">{{ lang }}</span>
-  {% else %}
-    {% if lang == site.default_lang %}
-      {%- comment -%} Ici, on est sur une autre langue et on veut le lien “anglais” de base {%- endcomment -%}
-      {% assign link = page.permalink %}
-      {% if site.active_lang != site.default_lang %}
-        {%- comment -%} on supprime seulement la première occurrence de “/fr” ou de la langue active {%- endcomment -%}
-        {% assign link = link | remove_first: "/{{ site.active_lang }}" %}
-      {% endif %}
-      <a href="{{ link }}">{{ lang }}</a>
-    {% else %}
-      {%- comment -%} lien vers les autres langues (ex. /fr/ma-page) {%- endcomment -%}
-      <a href="/{{ lang }}{{ page.permalink }}">{{ lang }}</a>
-    {% endif %}
-  {% endif %}
-{% endfor %}
-Fin du test
-
-Tests de liens !
-{% for lang in site.languages %}
-    {% if lang == site.default_lang %}
-<a href=" {{ page.url }}">{{ lang }}</a>
-    {% else %}
-<a href="/{{ lang }}{{ page.url }}">{{ lang }}</a>
-    {% endif %}
-{% endfor %}
 
 <!-- pages/projects.md -->
 <div class="projects">
