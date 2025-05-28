@@ -17,7 +17,7 @@ keywords: AI engineer, mobility, tech, innovation # add your own keywords or lea
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://ghislaindelabie.github.io # the base hostname & protocol for your site
+url: https://www.delabie.tech # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
@@ -350,9 +350,12 @@ enable_publication_thumbnails: true
 # These are the defaults
 external_links:
   enabled: true
-  rel: external nofollow noopener
-  target: _blank
+  # Retire "nofollow" pour passer le PageRank
+  rel: external noopener noreferrer   # noreferrer coupe le referrer si vous le souhaitez
+  # Laissez l'utilisateur choisir l'onglet :
+  target:                             # clé vide = pas d'attribut target
   exclude:
+ #   - "*.trustedpartner.com/*"        # exemples de domaines à traiter différemment (optionnel)
 
 # -----------------------------------------------------------------------------
 # Responsive WebP Images

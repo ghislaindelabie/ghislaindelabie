@@ -28,22 +28,6 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-Welcome.
-
-{% for lang in site.languages %}
-{{ page.url }}
-    {% if lang == site.active_lang %}
-{{ lang }} {{ page.permalink }}
-    {% else %}
-        {% if lang == site.default_lang %}
-<a href=" {{ page.permalink }}">{{ lang }}</a>
-        {% else %}
-<a href="/{{ lang }}{{ page.permalink }}">{{ lang }}</a>
-        {% endif %}
-    {% endif %}
-{% endfor %}
-
-
 
 I’m Ghislain Delabie—AI engineer, data innovator and sustainable-mobility expert.
 This site is the hub for everything I create and contribute to at the crossroads of artificial intelligence, data engineering and green transport.
