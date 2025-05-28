@@ -2,14 +2,14 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Ghislain Delabie - AI engineer # the website title (if blank, full name will be used instead)
+title: Ghislain Delabie # the website title (if blank, full name will be used instead)
 first_name: Ghislain
 middle_name: #P.
 last_name: Delabie
 contact_note: >
-  Contactez-moi sur l'un ou l'autre de mes réseaux ou via le formulaire.
+  Contact me on my social networks or using a dedicatd form.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Un thème simple pour la tech et l'IA. Basé sur [*folio](https://github.com/bogoli/-folio) design.
+  A simple theme for tech and AI. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
   Propulsé par <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> avec le thème <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
   Hébergé par <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -226,6 +226,8 @@ exclude_from_localization:
 
 polyglot:
   derive_lang_from_path: true
+  collections:
+      news: true
 
 # Sitemap settings
 defaults:

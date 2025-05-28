@@ -8,7 +8,7 @@ page_id: about
 
 profile:
   align: right
-  image: pic_ghislain_NB.jpg
+  image: pic_ghislain_color.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
     <p><a href='https://www.lafabriquedesmobilites.fr'>La Fabrique des Mobilités</a> (Data & AI expert).</p>

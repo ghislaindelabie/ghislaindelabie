@@ -8,8 +8,8 @@ page_id: about
 
 profile:
   align: right
-  image: pic_ghislain_NB.jpg
-  image_circular: true # crops the image to make it circular
+  image: pic_ghislain_color.jpg
+  image_circular: false # crops the image to make it circular
   more_info: >
     <p><a href='https://www.lafabriquedesmobilites.fr'>La Fabrique des Mobilités</a> (expert Data & IA).</p>
     <p><a href='https://www.moovance.fr'>Moovance</a> (advisor).</p>
@@ -30,7 +30,7 @@ latest_posts:
 ---
 Bienvenue.
 
-Je suis Ghislain Delabie, ingénieur IA, expert données (gouvernance, standards, Data science) et spécialiste des mobilités durables.
+Je suis Ghislain Delabie, ingénieur IA, expert données (gouvernance, standards, Data science, Data engineering) et spécialiste des mobilités durables.
 Ce site constitue le point d’entrée vers mes travaux et mes offres de services à l’intersection de l’intelligence artificielle, de la data et de la transition écologique.
 
 Vous y trouverez :
